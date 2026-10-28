@@ -1,8 +1,8 @@
-/login /login.html 200
-/student /student.html 200
-/admin /admin.html 200
-/officer /officer.html 200
-/track /track.html 200
-/complaints/new /complaints/new.html 200
-/complaints/* /track.html 200
-/* /index.html 200
+/complaints/new   /complaints/new/index.html   200
+/complaints/*     /complaints/detail/index.html 200
+/login            /login/index.html            200
+/student          /student/index.html          200
+/track            /track/index.html            200
+/officer          /officer/index.html          200
+/admin            /admin/index.html            200
+/*                /index.html                  200
